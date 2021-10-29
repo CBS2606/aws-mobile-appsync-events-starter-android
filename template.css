@@ -1,0 +1,101 @@
+::-ms-reveal
+::-webkit-search-results-decoration
+colgroup
+:nth-child
+got
+suite
+
+)::-webkit-meter-even-less-good-value
+reyncle
+:-webkit-full-screen
+:visited
+::backdrop
+ button
+ ::content
+ feBlend
+ 
+.comments .continue {
+    border-top: 2px solid $(post.title.text.color);
+  }
+  
+  
+  /* Widgets
+  ----------------------------------------------- */
+  .sidebar .widget {
+    border-bottom: 2px solid $(widget.border.bevel.color);
+    padding-bottom: 10px;
+    margin: 10px 0;
+  }
+  
+  .sidebar .widget:first-child {
+    margin-top: 0;
+  }
+  
+  .sidebar .widget:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
+  .footer-inner .widget,
+  .sidebar .widget {
+    font: $(widget.font);
+    color: $(widget.text.color);
+  }
+  
+  
+  .sidebar .widget a:link {
+    color: $(widget.link.color);
+    text-decoration: none;
+  }
+  
+  .sidebar .widget a:visited {
+    color: $(widget.link.visited.color);
+  }
+  
+  .sidebar .widget a:hover {
+    color: $(widget.link.color);
+    text-decoration: underline;
+  }
+  
+  .footer-inner .widget a:link {
+    color: $(link.color);
+    text-decoration: none;
+  }
+  
+  .footer-inner .widget a:visited {
+    color: $(link.visited.color);
+  }
+  
+  .footer-inner .widget a:hover {
+    color: $(link.color);
+    text-decoration: underline;
+  }
+  
+  .widget .zippy {
+    color: $(widget.alternate.text.color);
+  }
+  
+  .footer-inner {
+    background: transparent $(footer.background.gradient) repeat scroll top center;
+  }
+
+  mobile .tabs-inner .PageList .widget-content {
+    background: $(tabs.selected.background.color) $(tabs.selected.background.gradient) repeat scroll top center;
+    color: $(tabs.selected.text.color);
+  }
+  
+  .mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
+    border-$startSide: 1px solid $(tabs.selected.text.color);
+  }
+  ]]></b:skin>
+
+    <b:template-skin>
+      <b:variable default='960px' name='content.width' type='length'/>
+      <b:variable default='0' name='main.column.left.width' type='length'/>
+      <b:variable default='310px' name='main.column.right.width' type='length'/>
+
+      <![CDATA[
+      body {
+        min-width: $(content.width);
+      }
